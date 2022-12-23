@@ -35,7 +35,6 @@ describe('Binary Search Tree', () => {
       expect(bst.root.right).to.equal(null);
 
     });
-
     it('inserts smaller values to the left of tree nodes', () => {
 
       bst.insert(4);
@@ -333,5 +332,4 @@ describe('Binary Search Tree', () => {
     });
 
   });
-
 });
